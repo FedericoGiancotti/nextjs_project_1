@@ -15,6 +15,10 @@ const navLink: NavLinkItem[] = [
     title: "Project",
     path: "#project",
   },
+  {
+    title: "Experiences",
+    path: "#experience",
+  },
 ];
 const Navbar: React.FC = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);

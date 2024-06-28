@@ -599,6 +599,9 @@ video {
     max-width: 1536px;
   }
 }
+.visible {
+  visibility: visible;
+}
 .fixed {
   position: fixed;
 }
@@ -682,6 +685,15 @@ video {
 }
 .mt-8 {
   margin-top: 2rem;
+}
+.\!mt-0 {
+  margin-top: 0px !important;
+}
+.\!mt-1 {
+  margin-top: 0.25rem !important;
+}
+.mt-1 {
+  margin-top: 0.25rem;
 }
 .block {
   display: block;
@@ -974,6 +986,15 @@ video {
 }
 .font-semibold {
   font-weight: 600;
+}
+.\!font-normal {
+  font-weight: 400 !important;
+}
+.font-normal {
+  font-weight: 400;
+}
+.capitalize {
+  text-transform: capitalize;
 }
 .text-\[\#ADB7BE\] {
   --tw-text-opacity: 1;

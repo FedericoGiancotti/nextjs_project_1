@@ -5,6 +5,7 @@ import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
+import Experiences from "./components/Experiences";
 const page = () => {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
@@ -13,6 +14,7 @@ const page = () => {
         <HeroSection />
         <AchievementsSection />
         <AboutSection />
+        <Experiences />
         <ProjectsSection />
         <Footer />
       </div>
