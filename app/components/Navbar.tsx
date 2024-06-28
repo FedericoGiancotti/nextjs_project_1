@@ -12,12 +12,12 @@ const navLink: NavLinkItem[] = [
     path: "#about",
   },
   {
-    title: "Project",
-    path: "#project",
-  },
-  {
     title: "Experiences",
     path: "#experience",
+  },
+  {
+    title: "Projects",
+    path: "#project",
   },
 ];
 const Navbar: React.FC = () => {
